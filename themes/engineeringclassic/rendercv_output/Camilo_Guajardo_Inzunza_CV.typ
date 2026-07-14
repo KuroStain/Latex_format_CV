@@ -6,8 +6,8 @@
   name: "Camilo Guajardo Inzunza",
   title: "Camilo Guajardo Inzunza - CV",
   footer: context { [#emph[Camilo Guajardo Inzunza -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in July 2026] ],
-  locale-catalog-language: "en",
+  top-note: [ #emph[Última actualización Jul 2026] ],
+  locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -88,311 +88,200 @@
 
 = Camilo Guajardo Inzunza
 
+  #headline([Full Stack Developer | #strong[PHP] • #strong[Java] • #strong[Python] • #strong[Docker] • #strong[Kubernetes] • #strong[Google Cloud Platform]])
+
 #connections(
-  [#connection-with-icon("location-dot")[San Francisco, CA]],
-  [#link("mailto:john.doe@email.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[john.doe\@email.com]]],
-  [#link("https://rendercv.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[rendercv.com]]],
-  [#link("https://linkedin.com/in/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[rendercv]]],
-  [#link("https://github.com/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[rendercv]]],
+  [#connection-with-icon("location-dot")[Santiago, Chile]],
+  [#link("mailto:cg.inzunza.ez@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[cg.inzunza.ez\@gmail.com]]],
+  [#link("tel:+56-9-9725-5653", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[9 9725 5653]]],
+  [#link("https://linkedin.com/in/cginzunza", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[cginzunza]]],
+  [#link("https://github.com/KuroStain", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[KuroStain]]],
 )
 
 
-== Welcome to RenderCV
+== Perfil Profesional
 
-RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, integraciones y mantención de sistemas corporativos para banca, retail, seguros y servicios. He trabajado en backend, frontend, microservicios, migraciones, plataformas internas y despliegues en la nube. Me enfoco en comprender el problema de negocio antes de implementar una solución, priorizando código mantenible, colaboración entre equipos y aprendizaje continuo.
 
-Each section title is arbitrary.
+== Experiencia Profesional
 
-You can choose any of the 9 entry types for each section.
+#regular-entry(
+  [
+    #strong[Programador Informático], AVOS Tech — servicios para BancoEstado -- Santiago, Chile · Híbrido
 
-Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], and #link("https://example.com")[link].
+  ],
+  [
+    Oct 2025 – May 2026
 
-== Education
+  ],
+  main-column-second-row: [
+    #summary[Desarrollo y mantención de flujos bancarios sobre la plataforma #strong[Frame Banking] para procesos internos de BancoEstado.]
+
+    - Análisis de requerimientos funcionales y técnicos, implementación de ajustes y validación del comportamiento de flujos.
+
+    - Apoyo en pruebas, corrección de incidencias y continuidad operativa de procesos del entorno bancario.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Desarrollador Full Stack], KaijuCode -- Santiago, Chile · Remoto
+
+  ],
+  [
+    Abr 2024 – May 2025
+
+  ],
+  main-column-second-row: [
+    #summary[Desarrollo de soluciones web con #strong[Python] y #strong[SQL], participación en automatización, interfaces frontend y despliegues en #strong[Google Cloud Platform].]
+
+    - Implementación de interfaces y ajustes frontend en coordinación con equipos UX\/UI.
+
+    - Manejo y validación de datos con #strong[SQL], despliegue de aplicaciones y elaboración de documentación técnica.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Analista Desarrollador], KIO Solutions — servicios para Hites -- Providencia, Chile · Híbrido
+
+  ],
+  [
+    May 2023 – Mar 2024
+
+  ],
+  main-column-second-row: [
+    #summary[Participación en la migración de microservicios desde infraestructura on-premise hacia #strong[Google Cloud Platform] para cliente Hites.]
+
+    - Despliegue de contenedores con #strong[Docker] y orquestación con #strong[Kubernetes].
+
+    - Apoyo en diseño, implementación y validación de soluciones orientadas a escalabilidad y continuidad operativa.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Analista Desarrollador], Genesys Chile — servicios para Sonda -- Providencia, Chile
+
+  ],
+  [
+    Oct 2021 – Nov 2022
+
+  ],
+  main-column-second-row: [
+    #summary[Desarrollo y mantención de una plataforma corporativa de venta de licencias Autodesk para cliente Sonda.]
+
+    - Integración de APIs y ajustes asociados a procesos de compra digital.
+
+    - Corrección de incidencias, revisión de lógica existente y mantenimiento de aplicaciones corporativas.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Analista Desarrollador ]PHP#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) , Solutoria — servicios para Seguros Colmena -- Providencia, Chile
+
+  ],
+  [
+    Ene 2020 – Feb 2021
+
+  ],
+  main-column-second-row: [
+    #summary[Desarrollo y mantención de módulos para sistemas internos de seguros Colmena.]
+
+    - Resolución de tickets, corrección de incidencias y mantenimiento de aplicaciones #strong[PHP].
+
+    - Participación en un proyecto crítico de seguridad perimetral, reconocido por gerencia.
+
+  ],
+)
+
+== Experiencia Previa
+
+#regular-entry(
+  [
+    #strong[Soporte Técnico & Desarrollador ]PHP#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) , Solvencia AS -- Santiago Centro, Chile
+
+  ],
+  [
+    Abr 2019 – Ene 2020
+
+  ],
+  main-column-second-row: [
+    #summary[Mantenimiento de plataforma interna, generación de reportes, soporte técnico a usuarios y apoyo operativo en sistemas internos.]
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Soporte Remoto], Olidata -- Ñuñoa, Chile
+
+  ],
+  [
+    Jun 2015 – Sep 2015
+
+  ],
+  main-column-second-row: [
+    #summary[Atención remota a clientes empresariales, diagnóstico de incidencias y orientación para la continuidad operativa de equipos y sistemas.]
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Analista de Soporte Aplicativo], Editorial Zig-Zag \/ Educaria -- Providencia, Chile
+
+  ],
+  [
+    Oct 2013 – May 2015
+
+  ],
+  main-column-second-row: [
+    #summary[Soporte técnico y funcional a plataformas educativas, revisión de incidencias, consultas en base de datos y apoyo en QA de una nueva plataforma.]
+
+  ],
+)
+
+== Educación
 
 #education-entry(
   [
-    #strong[Princeton University], PhD in Computer Science -- Princeton, NJ
+    #strong[Universidad Internacional SEK], Técnico Analista Desarrollador de Sistemas en Análisis y Desarrollo de Sistemas -- Providencia, Chile
 
   ],
   [
-    Sept 2018 – May 2023
+    Mar 2017 – Ago 2019
 
   ],
   main-column-second-row: [
-    - Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment
-
-    - Advisor: Prof. Sanjeev Arora
-
-    - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-
   ],
 )
 
-#education-entry(
-  [
-    #strong[Boğaziçi University], BS in Computer Engineering -- Istanbul, Türkiye
+== Cursos, Certificaciones e Idiomas
 
-  ],
-  [
-    Sept 2014 – June 2018
+- Scrum Foundation Professional Certificate (SFPC)
 
-  ],
-  main-column-second-row: [
-    - GPA: 3.97\/4.00, Valedictorian
+- Diseño UX: Experiencia de Usuario
 
-    - Fulbright Scholarship recipient for Graduate Studies
+- UX\/UI + Figma
 
-  ],
-)
+- Inglés avanzado
 
-== Experience
+== Habilidades Técnicas
 
-#regular-entry(
-  [
-    #strong[Co-Founder & CTO], Nexus AI -- San Francisco, CA
+#strong[Lenguajes:] #strong[PHP], #strong[Java], #strong[Python], #strong[JavaScript], #strong[TypeScript], #strong[SQL]
 
-  ],
-  [
-    June 2023 – present
+#strong[Backend:] Laravel, CodeIgniter, Spring Boot, #strong[FastAPI], Node.js
 
-  ],
-  main-column-second-row: [
-    - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97\% uptime
+#strong[Frontend:] React, Angular, HTML5, CSS3
 
-    - Raised \$18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
+#strong[Bases de datos:] PostgreSQL, MySQL
 
-    - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
+#strong[Cloud y DevOps:] #strong[Docker], #strong[Kubernetes], #strong[Google Cloud Platform], Git, despliegue de aplicaciones
 
-    - Developed proprietary inference optimization reducing latency by 73\% compared to baseline
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Research Intern], NVIDIA Research -- Santa Clara, CA
-
-  ],
-  [
-    May 2022 – Aug 2022
-
-  ],
-  main-column-second-row: [
-    - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-
-    - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5\% of submissions)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Research Intern], Google DeepMind -- London, UK
-
-  ],
-  [
-    May 2021 – Aug 2021
-
-  ],
-  main-column-second-row: [
-    - Developed reinforcement learning algorithms for multi-agent coordination
-
-    - Published research at top-tier venues with significant academic impact
-
-    - ICML 2022 main conference paper, cited 340+ times within two years
-
-    - NeurIPS 2022 workshop paper on emergent communication protocols
-
-    - Invited journal extension in JMLR (2023)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Research Intern], Apple ML Research -- Cupertino, CA
-
-  ],
-  [
-    May 2020 – Aug 2020
-
-  ],
-  main-column-second-row: [
-    - Created on-device neural network compression pipeline deployed across 50M+ devices
-
-    - Filed 2 patents on efficient model quantization techniques for edge inference
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Research Intern], Microsoft Research -- Redmond, WA
-
-  ],
-  [
-    May 2019 – Aug 2019
-
-  ],
-  main-column-second-row: [
-    - Implemented novel self-supervised learning framework for low-resource language modeling
-
-    - Research integrated into Azure Cognitive Services, reducing training data requirements by 60\%
-
-  ],
-)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/")[FlashInfer]]
-
-  ],
-  [
-    Jan 2023 – present
-
-  ],
-  main-column-second-row: [
-    #summary[Open-source library for high-performance LLM inference kernels]
-
-    - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-
-    - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/")[NeuralPrune]]
-
-  ],
-  [
-    Jan 2021
-
-  ],
-  main-column-second-row: [
-    #summary[Automated neural network pruning toolkit with differentiable masks]
-
-    - Reduced model size by 90\% with less than 1\% accuracy degradation on ImageNet
-
-    - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-
-  ],
-)
-
-== Publications
-
-#regular-entry(
-  [
-    #strong[Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models]
-
-  ],
-  [
-    July 2023
-
-  ],
-  main-column-second-row: [
-    #emph[John Doe], Sarah Williams, David Park
-
-    #link("https://doi.org/10.1234/neurips.2023.1234")[10.1234\/neurips.2023.1234] (NeurIPS 2023)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Neural Architecture Search via Differentiable Pruning]
-
-  ],
-  [
-    Dec 2022
-
-  ],
-  main-column-second-row: [
-    James Liu, #emph[John Doe]
-
-    #link("https://doi.org/10.1234/neurips.2022.5678")[10.1234\/neurips.2022.5678] (NeurIPS 2022, Spotlight)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Multi-Agent Reinforcement Learning with Emergent Communication]
-
-  ],
-  [
-    July 2022
-
-  ],
-  main-column-second-row: [
-    Maria Garcia, #emph[John Doe], Tom Anderson
-
-    #link("https://doi.org/10.1234/icml.2022.9012")[10.1234\/icml.2022.9012] (ICML 2022)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[On-Device Model Compression via Learned Quantization]
-
-  ],
-  [
-    May 2021
-
-  ],
-  main-column-second-row: [
-    #emph[John Doe], Kevin Wu
-
-    #link("https://doi.org/10.1234/iclr.2021.3456")[10.1234\/iclr.2021.3456] (ICLR 2021, Best Paper Award)
-
-  ],
-)
-
-== Selected Honors
-
-- MIT Technology Review 35 Under 35 Innovators (2024)
-
-- Forbes 30 Under 30 in Enterprise Technology (2024)
-
-- ACM Doctoral Dissertation Award Honorable Mention (2023)
-
-- Google PhD Fellowship in Machine Learning (2020 – 2023)
-
-- Fulbright Scholarship for Graduate Studies (2018)
-
-== Skills
-
-#strong[Languages:] Python, C++, CUDA, Rust, Julia
-
-#strong[ML Frameworks:] PyTorch, JAX, TensorFlow, Triton, ONNX
-
-#strong[Infrastructure:] Kubernetes, Ray, distributed training, AWS, GCP
-
-#strong[Research Areas:] Neural architecture search, model compression, efficient inference, multi-agent RL
-
-== Patents
-
-+ Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-
-+ Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-
-+ Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-
-== Invited Talks
-
-#reversed-numbered-entries(
-  [
-
-+ Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-
-+ Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-
-+ From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)
-
-+ Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)
-  ],
-)
+#strong[Otros:] Microservicios, integraciones, APIs REST, #strong[Frame Banking], Scrum, documentación técnica, Figma
