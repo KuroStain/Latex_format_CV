@@ -14,8 +14,8 @@
   page-bottom-margin: 0.7in,
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
-  page-show-footer: true,
-  page-show-top-note: true,
+  page-show-footer: false,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 79, 144),
   colors-headline: rgb(0, 79, 144),
@@ -27,11 +27,11 @@
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Raleway",
-  typography-font-family-name: "Raleway",
-  typography-font-family-headline: "Raleway",
-  typography-font-family-connections: "Raleway",
-  typography-font-family-section-titles: "Raleway",
+  typography-font-family-body: "Source Sans 3",
+  typography-font-family-name: "Source Sans 3",
+  typography-font-family-headline: "Source Sans 3",
+  typography-font-family-connections: "Open Sans",
+  typography-font-family-section-titles: "Source Sans 3",
   typography-font-size-body: 10pt,
   typography-font-size-name: 30pt,
   typography-font-size-headline: 10pt,
@@ -88,12 +88,12 @@
 
 = Camilo Guajardo Inzunza
 
-  #headline([Full Stack Developer | #strong[PHP] • #strong[Java] • #strong[Python] • #strong[Docker] • #strong[Kubernetes] • #strong[Google Cloud Platform]])
+  #headline([Full Stack Developer | PHP • Java • Python • Docker • Kubernetes • Google Cloud Platform])
 
 #connections(
   [#connection-with-icon("location-dot")[Santiago, Chile]],
   [#link("mailto:cg.inzunza.ez@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[cg.inzunza.ez\@gmail.com]]],
-  [#link("tel:+56-9-9725-5653", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[9 9725 5653]]],
+  [#link("tel:+56-9-9725-5653", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[+56 9 9725 5653]]],
   [#link("https://linkedin.com/in/cginzunza", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[cginzunza]]],
   [#link("https://github.com/KuroStain", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[KuroStain]]],
 )
@@ -115,7 +115,7 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
   ],
   main-column-second-row: [
-    #summary[Desarrollo y mantención de flujos bancarios sobre la plataforma #strong[Frame Banking] para procesos internos de BancoEstado.]
+    #summary[Desarrollo y mantención de flujos bancarios sobre la plataforma Frame Banking para procesos internos de BancoEstado.]
 
     - Análisis de requerimientos funcionales y técnicos, implementación de ajustes y validación del comportamiento de flujos.
 
@@ -134,11 +134,11 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
   ],
   main-column-second-row: [
-    #summary[Desarrollo de soluciones web con #strong[Python] y #strong[SQL], participación en automatización, interfaces frontend y despliegues en #strong[Google Cloud Platform].]
+    #summary[Desarrollo de soluciones web con Python y SQL, participación en automatización, interfaces frontend y despliegues en Google Cloud Platform.]
 
     - Implementación de interfaces y ajustes frontend en coordinación con equipos UX\/UI.
 
-    - Manejo y validación de datos con #strong[SQL], despliegue de aplicaciones y elaboración de documentación técnica.
+    - Manejo y validación de datos con SQL, despliegue de aplicaciones y elaboración de documentación técnica.
 
   ],
 )
@@ -153,9 +153,9 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
   ],
   main-column-second-row: [
-    #summary[Participación en la migración de microservicios desde infraestructura on-premise hacia #strong[Google Cloud Platform] para cliente Hites.]
+    #summary[Participación en la migración de microservicios desde infraestructura on-premise hacia Google Cloud Platform para cliente Hites.]
 
-    - Despliegue de contenedores con #strong[Docker] y orquestación con #strong[Kubernetes].
+    - Despliegue de contenedores con Docker y orquestación con Kubernetes.
 
     - Apoyo en diseño, implementación y validación de soluciones orientadas a escalabilidad y continuidad operativa.
 
@@ -183,7 +183,7 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
 #regular-entry(
   [
-    #strong[Analista Desarrollador ]PHP#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) , Solutoria — servicios para Seguros Colmena -- Providencia, Chile
+    #strong[Analista Desarrollador PHP], Solutoria — servicios para Seguros Colmena -- Providencia, Chile
 
   ],
   [
@@ -193,7 +193,7 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
   main-column-second-row: [
     #summary[Desarrollo y mantención de módulos para sistemas internos de seguros Colmena.]
 
-    - Resolución de tickets, corrección de incidencias y mantenimiento de aplicaciones #strong[PHP].
+    - Resolución de tickets, corrección de incidencias y mantenimiento de aplicaciones PHP.
 
     - Participación en un proyecto crítico de seguridad perimetral, reconocido por gerencia.
 
@@ -204,7 +204,7 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
 #regular-entry(
   [
-    #strong[Soporte Técnico & Desarrollador ]PHP#sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) #sym.ast.basic#h(0pt, weak: true) , Solvencia AS -- Santiago Centro, Chile
+    #strong[Soporte Técnico & Desarrollador PHP], Solvencia AS -- Santiago Centro, Chile
 
   ],
   [
@@ -274,14 +274,14 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
 == Habilidades Técnicas
 
-#strong[Lenguajes:] #strong[PHP], #strong[Java], #strong[Python], #strong[JavaScript], #strong[TypeScript], #strong[SQL]
+#strong[Lenguajes:] PHP, Java, Python, JavaScript, TypeScript, SQL
 
-#strong[Backend:] Laravel, CodeIgniter, Spring Boot, #strong[FastAPI], Node.js
+#strong[Backend:] Laravel, CodeIgniter, Spring Boot, FastAPI, Node.js
 
 #strong[Frontend:] React, Angular, HTML5, CSS3
 
 #strong[Bases de datos:] PostgreSQL, MySQL
 
-#strong[Cloud y DevOps:] #strong[Docker], #strong[Kubernetes], #strong[Google Cloud Platform], Git, despliegue de aplicaciones
+#strong[Cloud y DevOps:] Docker, Kubernetes, Google Cloud Platform, Git, despliegue de aplicaciones
 
-#strong[Otros:] Microservicios, integraciones, APIs REST, #strong[Frame Banking], Scrum, documentación técnica, Figma
+#strong[Otros:] Microservicios, integraciones, APIs REST, Frame Banking, Scrum, documentación técnica, Figma

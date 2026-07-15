@@ -15,7 +15,7 @@ Desarrollador Full Stack con más de 6 años de experiencia en desarrollo web, i
 
 Oct 2025 – May 2026
 
-Desarrollo y mantención de flujos bancarios sobre la plataforma **Frame Banking** para procesos internos de BancoEstado.
+Desarrollo y mantención de flujos bancarios sobre la plataforma Frame Banking para procesos internos de BancoEstado.
 
 - Análisis de requerimientos funcionales y técnicos, implementación de ajustes y validación del comportamiento de flujos.
 
@@ -27,11 +27,11 @@ Desarrollo y mantención de flujos bancarios sobre la plataforma **Frame Banking
 
 Abr 2024 – May 2025
 
-Desarrollo de soluciones web con **Python** y **SQL**, participación en automatización, interfaces frontend y despliegues en **Google Cloud Platform**.
+Desarrollo de soluciones web con Python y SQL, participación en automatización, interfaces frontend y despliegues en Google Cloud Platform.
 
 - Implementación de interfaces y ajustes frontend en coordinación con equipos UX/UI.
 
-- Manejo y validación de datos con **SQL**, despliegue de aplicaciones y elaboración de documentación técnica.
+- Manejo y validación de datos con SQL, despliegue de aplicaciones y elaboración de documentación técnica.
 
 
 
@@ -39,9 +39,9 @@ Desarrollo de soluciones web con **Python** y **SQL**, participación en automat
 
 May 2023 – Mar 2024
 
-Participación en la migración de microservicios desde infraestructura on-premise hacia **Google Cloud Platform** para cliente Hites.
+Participación en la migración de microservicios desde infraestructura on-premise hacia Google Cloud Platform para cliente Hites.
 
-- Despliegue de contenedores con **Docker** y orquestación con **Kubernetes**.
+- Despliegue de contenedores con Docker y orquestación con Kubernetes.
 
 - Apoyo en diseño, implementación y validación de soluciones orientadas a escalabilidad y continuidad operativa.
 
@@ -59,20 +59,20 @@ Desarrollo y mantención de una plataforma corporativa de venta de licencias Aut
 
 
 
-## **Analista Desarrollador **PHP****, Solutoria — servicios para Seguros Colmena -- Providencia, Chile
+## **Analista Desarrollador PHP**, Solutoria — servicios para Seguros Colmena -- Providencia, Chile
 
 Ene 2020 – Feb 2021
 
 Desarrollo y mantención de módulos para sistemas internos de seguros Colmena.
 
-- Resolución de tickets, corrección de incidencias y mantenimiento de aplicaciones **PHP**.
+- Resolución de tickets, corrección de incidencias y mantenimiento de aplicaciones PHP.
 
 - Participación en un proyecto crítico de seguridad perimetral, reconocido por gerencia.
 
 
 
 # Experiencia Previa
-## **Soporte Técnico & Desarrollador **PHP****, Solvencia AS -- Santiago Centro, Chile
+## **Soporte Técnico & Desarrollador PHP**, Solvencia AS -- Santiago Centro, Chile
 
 Abr 2019 – Ene 2020
 
@@ -112,14 +112,14 @@ Mar 2017 – Ago 2019
 - Inglés avanzado
 
 # Habilidades Técnicas
-**Lenguajes:** **PHP**, **Java**, **Python**, **JavaScript**, **TypeScript**, **SQL**
+**Lenguajes:** PHP, Java, Python, JavaScript, TypeScript, SQL
 
-**Backend:** Laravel, CodeIgniter, Spring Boot, **FastAPI**, Node.js
+**Backend:** Laravel, CodeIgniter, Spring Boot, FastAPI, Node.js
 
 **Frontend:** React, Angular, HTML5, CSS3
 
 **Bases de datos:** PostgreSQL, MySQL
 
-**Cloud y DevOps:** **Docker**, **Kubernetes**, **Google Cloud Platform**, Git, despliegue de aplicaciones
+**Cloud y DevOps:** Docker, Kubernetes, Google Cloud Platform, Git, despliegue de aplicaciones
 
-**Otros:** Microservicios, integraciones, APIs REST, **Frame Banking**, Scrum, documentación técnica, Figma
+**Otros:** Microservicios, integraciones, APIs REST, Frame Banking, Scrum, documentación técnica, Figma

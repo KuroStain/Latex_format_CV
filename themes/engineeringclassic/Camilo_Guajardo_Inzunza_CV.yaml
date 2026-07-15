@@ -193,6 +193,15 @@ cv:
 
 design:
   theme: engineeringclassic
+  header:
+    connections:
+      phone_number_format: international
+  page:
+    show_top_note: false
+    show_footer: false
+  typography:
+    font_family:
+      connections: Open Sans
 
 locale:
   language: spanish
@@ -216,18 +225,6 @@ settings:
     dont_generate_png: false
 
   bold_keywords:
-    - PHP
-    - Java
-    - Python
-    - JavaScript
-    - TypeScript
-    - SQL
-    - Docker
-    - Kubernetes
-    - Google Cloud Platform
-    - FastAPI
-    - Next.js
-    - Prisma
-    - Frame Banking
+   []
 
   pdf_title: Camilo Guajardo Inzunza - CV
